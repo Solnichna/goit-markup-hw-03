@@ -29,8 +29,6 @@ img {
 /* start header */
 
 .header { 
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -44,7 +42,7 @@ img {
 .header-navigation {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    margin-right: auto;
 }
 
 .header-logo {
@@ -56,27 +54,18 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px
+    margin-right: 76px;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-logo-color {
     color:#2E2F42;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.166;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 76px
-    
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
-    padding: 24px 0 
 }
 
 .header-menu-item {
@@ -85,8 +74,6 @@ img {
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: block;
 }
 
 .header-menu-link {
@@ -97,6 +84,7 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-link:hover,
@@ -120,6 +108,8 @@ img {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0 24px;
+    display: block;
 }
 
 .address-list-contact:hover,
@@ -131,16 +121,12 @@ img {
 
 .hero {
     background-color: #2E2F42;
-    max-height: 600px;
     padding: 188px 0;
 
 }
 .hero-container {
-    max-width: 496px;
-    text-align: center;
-    padding: 0;
-  
 }
+
 .hero-title {
     font-size: 56px;
     line-height: 1.07; 
@@ -150,6 +136,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .button {
@@ -162,8 +149,6 @@ img {
     font-weight: 500;
     cursor: pointer;
     border-radius: 4px;
-    margin-top: 48px;
-    margin-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
     border: 0;
@@ -180,8 +165,8 @@ img {
 
 .info {
     padding: 120px 0;
-    margin-bottom: 8px;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -198,8 +183,6 @@ img {
 .info-list { 
     display: flex;
     gap: 24px;
-    padding-left: 0;
-    margin: 0;
 }
 
 .info-item {
@@ -226,43 +209,26 @@ img {
 
 .team { 
     background-color: #F4F4FD;
-    display: flex;
-    flex-direction: column;
     padding: 120px 0;
-    margin-bottom: 8px;
 }
+
 .our-team{
-    background-color: #F4F4FD;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11; 
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding: 120px, 639, 572, 639;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding: 0;
-    margin: 0;
     margin-bottom: 72px; 
     
 }
 .team-list {
-    background-color: #F4F4FD;
     display: flex;
     gap: 24px;
     
 }
 .team-item {
     background-color: #FFFFFF;
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
     border-radius: 0px 0px 4px 4px;
 }
 .team-image {
@@ -297,7 +263,6 @@ img {
 .portfolio {
     padding-top: 120px; 
     padding-bottom: 120px; 
-    margin-bottom: 72px; 
 }
 .portfolio-title {
     color:#2E2F42;
@@ -314,17 +279,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    align-items: center;
-    padding: 0;
-    margin: 0;
 }
 
 .portfolio-item {
     display: flex;
-    padding-bottom: 0px;
     flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
     width: calc((100% - 48px) / 3);
 }
 
@@ -332,7 +291,7 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin: 0;
+    flex-grow: 1;
 }
 
 .portfolio-subtitle {
@@ -371,15 +330,7 @@ img {
 }
 
 .footer-logo-color{
-    display: inline-block;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     color:#F4F4FD;
-    margin-bottom: 16px;
 }
 .footer-text {
     color: #F4F4FD;
@@ -387,4 +338,5 @@ img {
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
